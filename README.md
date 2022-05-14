@@ -1,1 +1,1 @@
-# AmoryCoffee
+# Amory-Coffee

@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TDH coffee</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="http://fonts.googleapis.com/css?family=Ubuntu:400,700%7CDroid+Serif:400,400italic,700,700italic%7CAguafina+Script" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="css/jquery-ui.min.css" media="all">
+    <link rel="stylesheet" href="css/animate.mod.min.css" media="all">
+    <link rel="stylesheet" href="css/style.css" media="all">
+    <title>TDH coffe</title>
+    <script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="js/jquery-ui.min.js"></script>
+</head>
+<body>
+<!--START Navigation-->
+<nav style="position: relative" class="navbar navbar-default navbar-fixed-top container" role="navigation">
+    <div class="container">
+
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+
+            <a class="navbar-brand" href="#"><img src="img/logo-1.png" width="5%" style="margin-top: -17px"/></a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse" aria-expanded="false" style="height: 100px;">
+            <ul class="nav navbar-nav" style="width: 120%;margin-left: -100px;height: 22px;margin-top: -25px">
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" >COFFEE<span class="caret"></span></a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a href="#">Plugins 1</a></li>
+                        <li><a href="#">Plugins 2</a></li>
+                        <li><a href="#">Plugins 3</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">TEA<span class="caret"></span></a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a href="#">Plugins 1</a></li>
+                        <li><a href="#">Plugins 2</a></li>
+                        <li><a href="#">Plugins 3</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">EQUIPMENT<span class="caret"></span></a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a href="#">Plugins 1</a></li>
+                        <li><a href="#">Plugins 2</a></li>
+                        <li><a href="#">Plugins 3</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">DRINKWARE<span class="caret"></span></a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a href="#">Plugins 1</a></li>
+                        <li><a href="#">Plugins 2</a></li>
+                        <li><a href="#">Plugins 3</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">GIFTS<span class="caret"></span></a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a href="#">Plugins 1</a></li>
+                        <li><a href="#">Plugins 2</a></li>
+                        <li><a href="#">Plugins 3</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">SALE<span class="caret"></span></a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a href="#">Plugins 1</a></li>
+                        <li><a href="#">Plugins 2</a></li>
+                        <li><a href="#">Plugins 3</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">RESERVATION</a></li>
+                <li></li>
+            </ul>
+
+            <form id="search" >
+                <input id="inp" type="text" name="search" placeholder="Search..">
+            </form>
+            <a href="#"><img src="img/shopping_cart1.png" onmouseover="this.src='img/shopping_cart1%20-%20Copy.png'" onmouseout="this.src='images/shopping_cart1.png'"  style="float: right;position: absolute; margin-left: 15%; margin-top: 0.4%"/><a>
+                <a href="#"><img src="img/heart2.png" onmouseover="this.src='img/heart2%20-%20Copy.png'" onmouseout="this.src='images/heart2.png'"  style=" float: right; position: absolute; margin-left: 9.5%; margin-top: 0.5%"/></a>
+            </a>
+            </a>
+        </div>
+
+    </div>
+</nav>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-2">
+            <div>Formats:</div>
+            <div>
+                <div class="dropdown">
+                    <button class="dropbtn"><a href="COFFEE.html">COFFEE</a></button>
+                    <div class="dropdown-content">
+                        <a href="TEA.html">TEA</a>
+                        <a href="DRINKWARE.html">DRINKWARE</a>
+                        <a href="EQUIMENTS.html">EQUIMENTS</a>
+                        <a href="#">GIFT</a>
+                        <a href="#">SALL</a>
+                    </div>
+                </div>
+            </div>
+            <div>Savour</div>
+            <div></div>
+            <div></div>
+        </div>
+        <div class="col-md-10">
+            <div class="form-group" style="text-align: right" id="Newest">
+                <select class="form-control" id="sel1">
+                    <option>Newest</option>
+                    <option>Best Selling</option>
+                    <option>Featured</option>
+                    <option>Price - Low To High</option>
+                    <option>Price - High To Low</option>
+                </select>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="container-fluid">
+                    <div class="row">
+                        <!--1-->
+                        <div class="col-lg-4">
+                            <div class="incon4">
+                                <div class="container ">
+                                    <img src="img/SALE" alt="" width="105%">
+                                    <div class="textbox" style="padding-top: 10px">
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <span style="padding-right: 20px;margin-left: -22px"><img class="icon10" src="img/icon-heart-round.png" ></span>
+                                                <span><a class="incon3"><img class="icon11" src="img/icon-compare-round.png" style="" ></a></span>
+                                            </div>
+                                            <div class="col-md-12" style="padding-top: 20px;text-align: center">
+                                                <p class="incon1">
+                                                    <a href="#"><img src="img/icon-cart-round.png"></a>
+                                                    <span style="color: #c44e0f"><a href="#">ADD TO BAG</a></span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p style="font-family: 'Arial Black';color: #0f0f0f;text-align: center;font-size: 18px">Guatemala Casi Cielo®, Whole Bean<br>
+                                    $14.5
+                                </p>
+                            </div>
+                        </div>
+                        <!--2-->
+                        <div class="col-lg-4">
+                            <div class="incon4">
+                                <div class="container ">
+                                    <img src="img/Sale" alt="" width="105%" style="">
+                                    <div class="textbox" style="padding-top: 10px">
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <span style="padding-right: 20px;margin-left: -22px"><img class="icon10" src="img/icon-heart-round.png" ></span>
+                                                <span><a class="incon3"><img class="icon11" src="img/icon-compare-round.png" style="" ></a></span>
+                                            </div>
+                                            <div class="col-md-12" style="padding-top: 20px;text-align: center">
+                                                <p class="incon1">
+                                                    <a href="#"><img src="img/icon-cart-round.png"></a>
+                                                    <span style="color: #c44e0f"><a href="#">ADD TO BAG</a></span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p style="font-family: 'Arial Black';color: #0f0f0f;text-align: center;font-size: 18px">Guatemala Casi Cielo®, Whole Bean<br>
+                                    $14.5
+                                </p>
+                            </div>
+                        </div>
+                        <!--3-->
+                        <div class="col-lg-4">
+                            <div class="incon4">
+                                <div class="container ">
+                                    <img src="img/coffee-3.jpg" alt="" width="105%" style="">
+                                    <div class="textbox" style="padding-top: 10px">
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <span style="padding-right: 20px;margin-left: -22px"><img class="icon10" src="img/icon-heart-round.png" ></span>
+                                                <span><a class="incon3"><img class="icon11" src="img/icon-compare-round.png" style="" ></a></span>
+                                            </div>
+                                            <div class="col-md-12" style="padding-top: 20px;text-align: center">
+                                                <p class="incon1">
+                                                    <a href="#"><img src="img/icon-cart-round.png"></a>
+                                                    <span style="color: #c44e0f"><a href="#">ADD TO BAG</a></span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p style="font-family: 'Arial Black';color: #0f0f0f;text-align: center;font-size: 18px">Guatemala Casi Cielo®, Whole Bean<br>
+                                    $14.5
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container-fluid">
+                    <div class="row">
+                        <!--4-->
+                        <div class="col-lg-4">
+                            <div class="incon4">
+                                <div class="container ">
+                                    <img src="img/coffee-4.jpg" alt="" width="105%" style="">
+                                    <div class="textbox" style="padding-top: 10px">
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <span style="padding-right: 20px;margin-left: -22px"><img class="icon10" src="img/icon-heart-round.png" ></span>
+                                                <span><a class="incon3"><img class="icon11" src="img/icon-compare-round.png" style="" ></a></span>
+                                            </div>
+                                            <div class="col-md-12" style="padding-top: 20px;text-align: center">
+                                                <p class="incon1">
+                                                    <a href="#"><img src="img/icon-cart-round.png"></a>
+                                                    <span style="color: #c44e0f"><a href="#">ADD TO BAG</a></span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p style="font-family: 'Arial Black';color: #0f0f0f;text-align: center;font-size: 18px">Guatemala Casi Cielo®, Whole Bean<br>
+                                    $14.5
+                                </p>
+                            </div>
+                        </div>
+                        <!--5-->
+                        <div class="col-lg-4">
+                            <div class="incon4">
+                                <div class="container ">
+                                    <img src="img/coffee-5.jpg" alt="" width="105%" style="">
+                                    <div class="textbox" style="padding-top: 10px">
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <span style="padding-right: 20px;margin-left: -22px"><img class="icon10" src="img/icon-heart-round.png" ></span>
+                                                <span><a class="incon3"><img class="icon11" src="img/icon-compare-round.png" style="" ></a></span>
+                                            </div>
+                                            <div class="col-md-12" style="padding-top: 20px;text-align: center">
+                                                <p class="incon1">
+                                                    <a href="#"><img src="img/icon-cart-round.png"></a>
+                                                    <span style="color: #c44e0f"><a href="#">ADD TO BAG</a></span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p style="font-family: 'Arial Black';color: #0f0f0f;text-align: center;font-size: 18px">Guatemala Casi Cielo®, Whole Bean<br>
+                                    $14.5
+                                </p>
+                            </div>
+                        </div>
+                        <!--6-->
+                        <div class="col-lg-4">
+                            <div class="incon4">
+                                <div class="container ">
+                                    <img src="img/coffee-6.jpg" alt="" width="105%" style="">
+                                    <div class="textbox" style="padding-top: 10px">
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <span style="padding-right: 20px;margin-left: -22px"><img class="icon10" src="img/icon-heart-round.png" ></span>
+                                                <span><a class="incon3"><img class="icon11" src="img/icon-compare-round.png" style="" ></a></span>
+                                            </div>
+                                            <div class="col-md-12" style="padding-top: 20px;text-align: center">
+                                                <p class="incon1">
+                                                    <a href="#"><img src="img/icon-cart-round.png"></a>
+                                                    <span style="color: #c44e0f"><a href="#">ADD TO BAG</a></span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p style="font-family: 'Arial Black';color: #0f0f0f;text-align: center;font-size: 18px">Guatemala Casi Cielo®, Whole Bean<br>
+                                    $14.5
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container-fluid">
+                    <div class="row">
+                        <!--7-->
+                        <div class="col-lg-4">
+                            <div class="incon4">
+                                <div class="container ">
+                                    <img src="img/coffee-7.jpg" alt="" width="105%" style="">
+                                    <div class="textbox" style="padding-top: 10px">
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <span style="padding-right: 20px;margin-left: -22px"><img class="icon10" src="img/icon-heart-round.png" ></span>
+                                                <span><a class="incon3"><img class="icon11" src="img/icon-compare-round.png" style="" ></a></span>
+                                            </div>
+                                            <div class="col-md-12" style="padding-top: 20px;text-align: center">
+                                                <p class="incon1">
+                                                    <a href="#"><img src="img/icon-cart-round.png"></a>
+                                                    <span style="color: #c44e0f"><a href="#">ADD TO BAG</a></span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p style="font-family: 'Arial Black';color: #0f0f0f;text-align: center;font-size: 18px">Guatemala Casi Cielo®, Whole Bean<br>
+                                    $14.5
+                                </p>
+                            </div>
+                        </div>
+                        <!--8-->
+                        <div class="col-lg-4">
+                            <div class="incon4">
+                                <div class="container ">
+                                    <img src="img/coffee-8.jpg" alt="" width="105%" style="">
+                                    <div class="textbox" style="padding-top: 10px">
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <span style="padding-right: 20px;margin-left: -22px"><img class="icon10" src="img/icon-heart-round.png" ></span>
+                                                <span><a class="incon3"><img class="icon11" src="img/icon-compare-round.png" style="" ></a></span>
+                                            </div>
+                                            <div class="col-md-12" style="padding-top: 20px;text-align: center">
+                                                <p class="incon1">
+                                                    <a href="#"><img src="img/icon-cart-round.png"></a>
+                                                    <span style="color: #c44e0f"><a href="#">ADD TO BAG</a></span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p style="font-family: 'Arial Black';color: #0f0f0f;text-align: center;font-size: 18px">Guatemala Casi Cielo®, Whole Bean<br>
+                                    $14.5
+                                </p>
+                            </div>
+                        </div>
+                        <!--9-->
+                        <div class="col-lg-4">
+                            <div class="incon4">
+                                <div class="container ">
+                                    <img src="img/coffee-9.jpg" alt="" width="105%" style="">
+                                    <div class="textbox" style="padding-top: 10px">
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <span style="padding-right: 20px;margin-left: -22px"><img class="icon10" src="img/icon-heart-round.png" ></span>
+                                                <span><a class="incon3"><img class="icon11" src="img/icon-compare-round.png" style="" ></a></span>
+                                            </div>
+                                            <div class="col-md-12" style="padding-top: 20px;text-align: center">
+                                                <p class="incon1">
+                                                    <a href="#"><img src="img/icon-cart-round.png"></a>
+                                                    <span style="color: #c44e0f"><a href="#">ADD TO BAG</a></span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p style="font-family: 'Arial Black';color: #0f0f0f;text-align: center;font-size: 18px">Guatemala Casi Cielo®, Whole Bean<br>
+                                    $14.5
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="pagination">
+                    <a href="#">&laquo;</a>
+                    <a href="COFFEE.html" class="active">1</a>
+                    <a href="COFFEE_2.html" >2</a>
+                    <a href="#">3</a>
+                    <a href="#">4</a>
+                    <a href="#">5</a>
+                    <a href="#">6</a>
+                    <a href="#">&raquo;</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+<script type="text/javascript" src="js/jquery-main.js"></script>
+<script type="text/javascript" src="js/jquery-custom.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>

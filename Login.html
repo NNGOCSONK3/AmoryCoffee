@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<link rel="icon" href="img/Logo1.png" type = "image/x-icon">
+	<meta charset="UTF-8">
+	<title>Đăng Nhập</title>
+	<link rel="stylesheet" href="css/Login.css">
+
+</head>
+
+<body>
+	<div class="container">
+		<div class="top">
+			<h1 id="title" class="hidden"><span id="logo">Amory <span>Coffee</span></span></h1>
+		</div>
+		<div class="login-box">
+			<div class="box-header">
+				<h2>Đăng Nhập</h2>
+			</div>
+			<form role="form" onsubmit="signIn(event);" autocomplete="off">
+				<div class="form-group">
+                    <input type="email" name="email" id="email" placeholder="Địa Chỉ Email" required>
+                </div>
+                <div class="form-group">
+                    <input type="password" name="pwd" id="pwd" placeholder="Mật Khẩu" required>
+                </div>
+                <div class="form-group">
+                    <button type="submit">Đăng Nhập</button>
+                </div>
+				<!-- <a href="#"><p class="small">Quên Mật Khẩu</p></a> -->
+			</form>
+			<hr>
+			<p><a href="Register.html">Đăng Kí Tài Khoản Mới</a></p>
+		</div>
+	</div>
+	<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
