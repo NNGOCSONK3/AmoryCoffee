@@ -23,25 +23,46 @@
             position: relative;
 
         }
-        button{
+        /* button{
             text-align: center;
             display: inline-block;
             font-size: 16px;
             margin-left: 44%;
             margin-top: 20px;
             text-decoration: none;
-        }
+        } */
         a{
             text-decoration: none;
             color: black;
+        }
+        #DongHo{
+           margin: 30px;
+           font-size: 5em;
+           font-weight: bold;
+           color: black;
+           text-align: center;
         }
     </style>
     <title>Success</title>
 </head>
 <body>
     <div class="top">
-        <h1 id="title" class="hidden"><span id="logo">Cảm Ơn Quý Khách!!!</span></h1>
-        <button><a href="index.html">Tiếp Tục Mua Hàng</a></button>
+        <h1 id="title" class="hidden"><span id="logo">Order Success!!!</span></h1>   
+        <div id="DongHo"></div>
+        <script>
+            var time = 10;
+            function Timeout(){
+                time--;
+                if(time != 0){
+                    document.getElementById("DongHo").innerHTML = time;
+                    setTimeout("Timeout()", 1000);
+                }
+                else{
+                    window.location.href = "index.html";
+                }
+            }
+            Timeout(); // chay ham Timeout()
+        </script> 
     </div>
 </body>
 </html>
